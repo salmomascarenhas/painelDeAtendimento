@@ -2,3 +2,7 @@
 *.exe
 bin/Debug/Painel_Pacientes.exe.config
 bin/Debug/Painel_Pacientes.pdb
+*.lock
+*.ide
+*.ide-shm
+*.ide-wal
