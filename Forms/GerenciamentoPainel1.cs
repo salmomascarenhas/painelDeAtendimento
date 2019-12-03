@@ -38,6 +38,8 @@ namespace Painel_Pacientes.Forms
             comboBoxStatus4.Items.AddRange(new string[] { "Livre","Aguardando atendimento","Em atendimento" });
             comboBoxStatus5.Items.AddRange(new string[] { "Livre","Aguardando atendimento","Em atendimento" });
 
+            comboBoxTitle.Items.AddRange(new string[] { "GED", "Sorriso Aberto", "Sorriso Positivo" });
+
             comboBoxStatus1.SelectedIndex = 0;
             comboBoxStatus2.SelectedIndex = 0;
             comboBoxStatus3.SelectedIndex= 0;
@@ -53,19 +55,7 @@ namespace Painel_Pacientes.Forms
             painel1.RefreshPanel(this.pacientes);           
         }
 
-        private void Button1_Click(object sender, EventArgs e)
-        {   //Botão atualizar título.
-
-            // Atualiza o título do painel 1 (com apenas uma divisão).
-            if (this.textBoxTitle.Text == String.Empty)
-            {
-                this.textBoxTitle.Focus();
-                return;
-            }
-
-            painel1.RefreshTitle(this.textBoxTitle.Text);
-            
-        }
+        
 
         private void TextBoxPaciente1_TextChanged(object sender, EventArgs e)
         {
@@ -148,13 +138,7 @@ namespace Painel_Pacientes.Forms
             pacientes[4].Status = comboBoxStatus5.SelectedIndex;
         }
 
-        private void TextBoxTitle_KeyDown(object sender, KeyEventArgs e)
-        {
-            if(e.KeyCode == Keys.Enter)
-            {
-                this.Button1_Click(new object(), new EventArgs());
-            }
-        }
+        
 
         private void TextBoxPaciente1_KeyDown(object sender, KeyEventArgs e)
         {
@@ -248,6 +232,16 @@ namespace Painel_Pacientes.Forms
         {
             if (e.KeyCode == Keys.Enter)
                 this.ButtonUpdate_Click(new object(), new EventArgs());
+        }
+
+        private void comboBoxTitle_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //if (this.comboBoxTitle.Text == String.Empty)
+            //{
+             //   return;
+            //}
+
+            painel1.RefreshTitle(this.comboBoxTitle.Text);
         }
     }
 }

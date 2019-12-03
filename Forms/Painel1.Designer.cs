@@ -130,11 +130,11 @@
             label1.AutoSize = true;
             label1.Font = new System.Drawing.Font("Microsoft JhengHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label1.ForeColor = System.Drawing.Color.Transparent;
-            label1.Location = new System.Drawing.Point(95, 4);
+            label1.Location = new System.Drawing.Point(119, 4);
             label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(106, 24);
+            label1.Size = new System.Drawing.Size(64, 24);
             label1.TabIndex = 28;
-            label1.Text = "Atendente";
+            label1.Text = "Aluno";
             label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label4
@@ -166,11 +166,11 @@
             label8.AutoSize = true;
             label8.Font = new System.Drawing.Font("Microsoft JhengHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label8.ForeColor = System.Drawing.Color.Transparent;
-            label8.Location = new System.Drawing.Point(95, 4);
+            label8.Location = new System.Drawing.Point(119, 4);
             label8.Name = "label8";
-            label8.Size = new System.Drawing.Size(106, 24);
+            label8.Size = new System.Drawing.Size(64, 24);
             label8.TabIndex = 28;
-            label8.Text = "Atendente";
+            label8.Text = "Aluno";
             label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label10
@@ -202,11 +202,11 @@
             label15.AutoSize = true;
             label15.Font = new System.Drawing.Font("Microsoft JhengHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label15.ForeColor = System.Drawing.Color.Transparent;
-            label15.Location = new System.Drawing.Point(95, 4);
+            label15.Location = new System.Drawing.Point(119, 4);
             label15.Name = "label15";
-            label15.Size = new System.Drawing.Size(106, 24);
+            label15.Size = new System.Drawing.Size(64, 24);
             label15.TabIndex = 28;
-            label15.Text = "Atendente";
+            label15.Text = "Aluno";
             label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label17
@@ -238,11 +238,11 @@
             label21.AutoSize = true;
             label21.Font = new System.Drawing.Font("Microsoft JhengHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label21.ForeColor = System.Drawing.Color.Transparent;
-            label21.Location = new System.Drawing.Point(95, 4);
+            label21.Location = new System.Drawing.Point(119, 4);
             label21.Name = "label21";
-            label21.Size = new System.Drawing.Size(106, 24);
+            label21.Size = new System.Drawing.Size(64, 24);
             label21.TabIndex = 28;
-            label21.Text = "Atendente";
+            label21.Text = "Aluno";
             label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label23
@@ -274,11 +274,11 @@
             label27.AutoSize = true;
             label27.Font = new System.Drawing.Font("Microsoft JhengHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label27.ForeColor = System.Drawing.Color.Transparent;
-            label27.Location = new System.Drawing.Point(95, 4);
+            label27.Location = new System.Drawing.Point(119, 4);
             label27.Name = "label27";
-            label27.Size = new System.Drawing.Size(106, 24);
+            label27.Size = new System.Drawing.Size(64, 24);
             label27.TabIndex = 28;
-            label27.Text = "Atendente";
+            label27.Text = "Aluno";
             label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label29
@@ -295,6 +295,9 @@
             // 
             // panelTitle
             // 
+            this.panelTitle.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panelTitle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(101)))), ((int)(((byte)(150)))));
             this.panelTitle.Controls.Add(this.labelTitle);
             this.panelTitle.Location = new System.Drawing.Point(0, 0);
@@ -304,12 +307,12 @@
             // 
             // labelTitle
             // 
-            this.labelTitle.AutoSize = true;
+            this.labelTitle.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelTitle.Font = new System.Drawing.Font("Microsoft JhengHei", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTitle.ForeColor = System.Drawing.Color.White;
-            this.labelTitle.Location = new System.Drawing.Point(315, 20);
+            this.labelTitle.Location = new System.Drawing.Point(0, 0);
             this.labelTitle.Name = "labelTitle";
-            this.labelTitle.Size = new System.Drawing.Size(169, 43);
+            this.labelTitle.Size = new System.Drawing.Size(800, 81);
             this.labelTitle.TabIndex = 27;
             this.labelTitle.Text = "PRÓTESE";
             this.labelTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -326,12 +329,12 @@
             // 
             // labelPaciente0
             // 
-            this.labelPaciente0.AutoSize = true;
+            this.labelPaciente0.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelPaciente0.Font = new System.Drawing.Font("Microsoft JhengHei", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelPaciente0.ForeColor = System.Drawing.Color.White;
-            this.labelPaciente0.Location = new System.Drawing.Point(5, 27);
+            this.labelPaciente0.Location = new System.Drawing.Point(0, 0);
             this.labelPaciente0.Name = "labelPaciente0";
-            this.labelPaciente0.Size = new System.Drawing.Size(259, 37);
+            this.labelPaciente0.Size = new System.Drawing.Size(390, 80);
             this.labelPaciente0.TabIndex = 26;
             this.labelPaciente0.Text = "Leandro Faustino";
             this.labelPaciente0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -348,12 +351,12 @@
             // 
             // labelAtendente0
             // 
-            this.labelAtendente0.AutoSize = true;
+            this.labelAtendente0.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelAtendente0.Font = new System.Drawing.Font("Microsoft JhengHei", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelAtendente0.ForeColor = System.Drawing.Color.White;
-            this.labelAtendente0.Location = new System.Drawing.Point(4, 27);
+            this.labelAtendente0.Location = new System.Drawing.Point(0, 0);
             this.labelAtendente0.Name = "labelAtendente0";
-            this.labelAtendente0.Size = new System.Drawing.Size(259, 37);
+            this.labelAtendente0.Size = new System.Drawing.Size(285, 80);
             this.labelAtendente0.TabIndex = 26;
             this.labelAtendente0.Text = "Leandro Faustino";
             this.labelAtendente0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -370,12 +373,12 @@
             // 
             // labelStatus0
             // 
-            this.labelStatus0.AutoSize = true;
+            this.labelStatus0.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelStatus0.Font = new System.Drawing.Font("Microsoft JhengHei", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelStatus0.ForeColor = System.Drawing.Color.White;
-            this.labelStatus0.Location = new System.Drawing.Point(-4, 27);
+            this.labelStatus0.Location = new System.Drawing.Point(0, 0);
             this.labelStatus0.Name = "labelStatus0";
-            this.labelStatus0.Size = new System.Drawing.Size(77, 35);
+            this.labelStatus0.Size = new System.Drawing.Size(123, 80);
             this.labelStatus0.TabIndex = 26;
             this.labelStatus0.Text = "Livre";
             this.labelStatus0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -392,12 +395,12 @@
             // 
             // labelPaciente1
             // 
-            this.labelPaciente1.AutoSize = true;
+            this.labelPaciente1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelPaciente1.Font = new System.Drawing.Font("Microsoft JhengHei", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelPaciente1.ForeColor = System.Drawing.Color.White;
-            this.labelPaciente1.Location = new System.Drawing.Point(3, 27);
+            this.labelPaciente1.Location = new System.Drawing.Point(0, 0);
             this.labelPaciente1.Name = "labelPaciente1";
-            this.labelPaciente1.Size = new System.Drawing.Size(259, 37);
+            this.labelPaciente1.Size = new System.Drawing.Size(390, 80);
             this.labelPaciente1.TabIndex = 26;
             this.labelPaciente1.Text = "Leandro Faustino";
             this.labelPaciente1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -414,12 +417,12 @@
             // 
             // labelAtendente1
             // 
-            this.labelAtendente1.AutoSize = true;
+            this.labelAtendente1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelAtendente1.Font = new System.Drawing.Font("Microsoft JhengHei", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelAtendente1.ForeColor = System.Drawing.Color.White;
-            this.labelAtendente1.Location = new System.Drawing.Point(3, 27);
+            this.labelAtendente1.Location = new System.Drawing.Point(0, 0);
             this.labelAtendente1.Name = "labelAtendente1";
-            this.labelAtendente1.Size = new System.Drawing.Size(259, 37);
+            this.labelAtendente1.Size = new System.Drawing.Size(285, 80);
             this.labelAtendente1.TabIndex = 26;
             this.labelAtendente1.Text = "Leandro Faustino";
             this.labelAtendente1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -458,12 +461,12 @@
             // 
             // labelPaciente2
             // 
-            this.labelPaciente2.AutoSize = true;
+            this.labelPaciente2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelPaciente2.Font = new System.Drawing.Font("Microsoft JhengHei", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelPaciente2.ForeColor = System.Drawing.Color.White;
-            this.labelPaciente2.Location = new System.Drawing.Point(3, 27);
+            this.labelPaciente2.Location = new System.Drawing.Point(0, 0);
             this.labelPaciente2.Name = "labelPaciente2";
-            this.labelPaciente2.Size = new System.Drawing.Size(259, 37);
+            this.labelPaciente2.Size = new System.Drawing.Size(390, 80);
             this.labelPaciente2.TabIndex = 26;
             this.labelPaciente2.Text = "Leandro Faustino";
             this.labelPaciente2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -480,12 +483,12 @@
             // 
             // labelAtendente2
             // 
-            this.labelAtendente2.AutoSize = true;
+            this.labelAtendente2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelAtendente2.Font = new System.Drawing.Font("Microsoft JhengHei", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelAtendente2.ForeColor = System.Drawing.Color.White;
-            this.labelAtendente2.Location = new System.Drawing.Point(3, 27);
+            this.labelAtendente2.Location = new System.Drawing.Point(0, 0);
             this.labelAtendente2.Name = "labelAtendente2";
-            this.labelAtendente2.Size = new System.Drawing.Size(259, 37);
+            this.labelAtendente2.Size = new System.Drawing.Size(285, 80);
             this.labelAtendente2.TabIndex = 26;
             this.labelAtendente2.Text = "Leandro Faustino";
             this.labelAtendente2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -524,12 +527,12 @@
             // 
             // labelPaciente3
             // 
-            this.labelPaciente3.AutoSize = true;
+            this.labelPaciente3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelPaciente3.Font = new System.Drawing.Font("Microsoft JhengHei", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelPaciente3.ForeColor = System.Drawing.Color.White;
-            this.labelPaciente3.Location = new System.Drawing.Point(3, 27);
+            this.labelPaciente3.Location = new System.Drawing.Point(0, 0);
             this.labelPaciente3.Name = "labelPaciente3";
-            this.labelPaciente3.Size = new System.Drawing.Size(259, 37);
+            this.labelPaciente3.Size = new System.Drawing.Size(390, 80);
             this.labelPaciente3.TabIndex = 26;
             this.labelPaciente3.Text = "Leandro Faustino";
             this.labelPaciente3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -546,12 +549,12 @@
             // 
             // labelAtendente3
             // 
-            this.labelAtendente3.AutoSize = true;
+            this.labelAtendente3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelAtendente3.Font = new System.Drawing.Font("Microsoft JhengHei", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelAtendente3.ForeColor = System.Drawing.Color.White;
-            this.labelAtendente3.Location = new System.Drawing.Point(3, 27);
+            this.labelAtendente3.Location = new System.Drawing.Point(0, 0);
             this.labelAtendente3.Name = "labelAtendente3";
-            this.labelAtendente3.Size = new System.Drawing.Size(259, 37);
+            this.labelAtendente3.Size = new System.Drawing.Size(285, 80);
             this.labelAtendente3.TabIndex = 26;
             this.labelAtendente3.Text = "Leandro Faustino";
             this.labelAtendente3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -612,12 +615,12 @@
             // 
             // labelAtendente4
             // 
-            this.labelAtendente4.AutoSize = true;
+            this.labelAtendente4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelAtendente4.Font = new System.Drawing.Font("Microsoft JhengHei", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelAtendente4.ForeColor = System.Drawing.Color.White;
-            this.labelAtendente4.Location = new System.Drawing.Point(3, 27);
+            this.labelAtendente4.Location = new System.Drawing.Point(0, 0);
             this.labelAtendente4.Name = "labelAtendente4";
-            this.labelAtendente4.Size = new System.Drawing.Size(259, 37);
+            this.labelAtendente4.Size = new System.Drawing.Size(285, 80);
             this.labelAtendente4.TabIndex = 26;
             this.labelAtendente4.Text = "Leandro Faustino";
             this.labelAtendente4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -634,12 +637,12 @@
             // 
             // labelPaciente4
             // 
-            this.labelPaciente4.AutoSize = true;
+            this.labelPaciente4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelPaciente4.Font = new System.Drawing.Font("Microsoft JhengHei", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelPaciente4.ForeColor = System.Drawing.Color.White;
-            this.labelPaciente4.Location = new System.Drawing.Point(3, 27);
+            this.labelPaciente4.Location = new System.Drawing.Point(0, 0);
             this.labelPaciente4.Name = "labelPaciente4";
-            this.labelPaciente4.Size = new System.Drawing.Size(259, 37);
+            this.labelPaciente4.Size = new System.Drawing.Size(390, 80);
             this.labelPaciente4.TabIndex = 26;
             this.labelPaciente4.Text = "Leandro Faustino";
             this.labelPaciente4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -713,7 +716,6 @@
             this.Text = "Painel1";
             this.Load += new System.EventHandler(this.Painel1_Load);
             this.panelTitle.ResumeLayout(false);
-            this.panelTitle.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

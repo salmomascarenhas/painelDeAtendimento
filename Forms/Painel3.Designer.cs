@@ -295,11 +295,11 @@
             label8.AutoSize = true;
             label8.Font = new System.Drawing.Font("Microsoft JhengHei", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label8.ForeColor = System.Drawing.Color.Transparent;
-            label8.Location = new System.Drawing.Point(5, 5);
+            label8.Location = new System.Drawing.Point(25, 5);
             label8.Name = "label8";
-            label8.Size = new System.Drawing.Size(99, 23);
+            label8.Size = new System.Drawing.Size(60, 23);
             label8.TabIndex = 28;
-            label8.Text = "Atendente";
+            label8.Text = "Aluno";
             label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label14
@@ -331,11 +331,11 @@
             label13.AutoSize = true;
             label13.Font = new System.Drawing.Font("Microsoft JhengHei", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label13.ForeColor = System.Drawing.Color.Transparent;
-            label13.Location = new System.Drawing.Point(5, 5);
+            label13.Location = new System.Drawing.Point(25, 5);
             label13.Name = "label13";
-            label13.Size = new System.Drawing.Size(99, 23);
+            label13.Size = new System.Drawing.Size(60, 23);
             label13.TabIndex = 28;
-            label13.Text = "Atendente";
+            label13.Text = "Aluno";
             label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label16
@@ -367,11 +367,11 @@
             label20.AutoSize = true;
             label20.Font = new System.Drawing.Font("Microsoft JhengHei", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label20.ForeColor = System.Drawing.Color.Transparent;
-            label20.Location = new System.Drawing.Point(5, 5);
+            label20.Location = new System.Drawing.Point(25, 5);
             label20.Name = "label20";
-            label20.Size = new System.Drawing.Size(99, 23);
+            label20.Size = new System.Drawing.Size(60, 23);
             label20.TabIndex = 28;
-            label20.Text = "Atendente";
+            label20.Text = "Aluno";
             label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label22
@@ -391,11 +391,11 @@
             label24.AutoSize = true;
             label24.Font = new System.Drawing.Font("Microsoft JhengHei", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label24.ForeColor = System.Drawing.Color.Transparent;
-            label24.Location = new System.Drawing.Point(5, 5);
+            label24.Location = new System.Drawing.Point(25, 5);
             label24.Name = "label24";
-            label24.Size = new System.Drawing.Size(99, 23);
+            label24.Size = new System.Drawing.Size(60, 23);
             label24.TabIndex = 28;
-            label24.Text = "Atendente";
+            label24.Text = "Aluno";
             label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label26
@@ -415,11 +415,11 @@
             label28.AutoSize = true;
             label28.Font = new System.Drawing.Font("Microsoft JhengHei", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label28.ForeColor = System.Drawing.Color.Transparent;
-            label28.Location = new System.Drawing.Point(5, 5);
+            label28.Location = new System.Drawing.Point(25, 5);
             label28.Name = "label28";
-            label28.Size = new System.Drawing.Size(99, 23);
+            label28.Size = new System.Drawing.Size(60, 23);
             label28.TabIndex = 28;
-            label28.Text = "Atendente";
+            label28.Text = "Aluno";
             label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label30
@@ -439,11 +439,11 @@
             label32.AutoSize = true;
             label32.Font = new System.Drawing.Font("Microsoft JhengHei", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label32.ForeColor = System.Drawing.Color.Transparent;
-            label32.Location = new System.Drawing.Point(5, 5);
+            label32.Location = new System.Drawing.Point(25, 5);
             label32.Name = "label32";
-            label32.Size = new System.Drawing.Size(99, 23);
+            label32.Size = new System.Drawing.Size(60, 23);
             label32.TabIndex = 28;
-            label32.Text = "Atendente";
+            label32.Text = "Aluno";
             label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label34
@@ -463,11 +463,11 @@
             label36.AutoSize = true;
             label36.Font = new System.Drawing.Font("Microsoft JhengHei", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label36.ForeColor = System.Drawing.Color.Transparent;
-            label36.Location = new System.Drawing.Point(5, 5);
+            label36.Location = new System.Drawing.Point(25, 5);
             label36.Name = "label36";
-            label36.Size = new System.Drawing.Size(99, 23);
+            label36.Size = new System.Drawing.Size(60, 23);
             label36.TabIndex = 28;
-            label36.Text = "Atendente";
+            label36.Text = "Aluno";
             label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label38
@@ -487,11 +487,11 @@
             label40.AutoSize = true;
             label40.Font = new System.Drawing.Font("Microsoft JhengHei", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label40.ForeColor = System.Drawing.Color.Transparent;
-            label40.Location = new System.Drawing.Point(5, 5);
+            label40.Location = new System.Drawing.Point(25, 5);
             label40.Name = "label40";
-            label40.Size = new System.Drawing.Size(99, 23);
+            label40.Size = new System.Drawing.Size(60, 23);
             label40.TabIndex = 28;
-            label40.Text = "Atendente";
+            label40.Text = "Aluno";
             label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label42
@@ -511,11 +511,11 @@
             label44.AutoSize = true;
             label44.Font = new System.Drawing.Font("Microsoft JhengHei", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label44.ForeColor = System.Drawing.Color.Transparent;
-            label44.Location = new System.Drawing.Point(5, 5);
+            label44.Location = new System.Drawing.Point(25, 5);
             label44.Name = "label44";
-            label44.Size = new System.Drawing.Size(99, 23);
+            label44.Size = new System.Drawing.Size(60, 23);
             label44.TabIndex = 28;
-            label44.Text = "Atendente";
+            label44.Text = "Aluno";
             label44.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label46
@@ -535,11 +535,11 @@
             label48.AutoSize = true;
             label48.Font = new System.Drawing.Font("Microsoft JhengHei", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label48.ForeColor = System.Drawing.Color.Transparent;
-            label48.Location = new System.Drawing.Point(5, 5);
+            label48.Location = new System.Drawing.Point(25, 5);
             label48.Name = "label48";
-            label48.Size = new System.Drawing.Size(99, 23);
+            label48.Size = new System.Drawing.Size(60, 23);
             label48.TabIndex = 28;
-            label48.Text = "Atendente";
+            label48.Text = "Aluno";
             label48.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label50
@@ -559,11 +559,11 @@
             label52.AutoSize = true;
             label52.Font = new System.Drawing.Font("Microsoft JhengHei", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label52.ForeColor = System.Drawing.Color.Transparent;
-            label52.Location = new System.Drawing.Point(5, 5);
+            label52.Location = new System.Drawing.Point(25, 5);
             label52.Name = "label52";
-            label52.Size = new System.Drawing.Size(99, 23);
+            label52.Size = new System.Drawing.Size(60, 23);
             label52.TabIndex = 28;
-            label52.Text = "Atendente";
+            label52.Text = "Aluno";
             label52.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label54
@@ -583,11 +583,11 @@
             label56.AutoSize = true;
             label56.Font = new System.Drawing.Font("Microsoft JhengHei", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label56.ForeColor = System.Drawing.Color.Transparent;
-            label56.Location = new System.Drawing.Point(5, 5);
+            label56.Location = new System.Drawing.Point(25, 5);
             label56.Name = "label56";
-            label56.Size = new System.Drawing.Size(99, 23);
+            label56.Size = new System.Drawing.Size(60, 23);
             label56.TabIndex = 28;
-            label56.Text = "Atendente";
+            label56.Text = "Aluno";
             label56.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label58
@@ -607,11 +607,11 @@
             label60.AutoSize = true;
             label60.Font = new System.Drawing.Font("Microsoft JhengHei", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label60.ForeColor = System.Drawing.Color.Transparent;
-            label60.Location = new System.Drawing.Point(5, 5);
+            label60.Location = new System.Drawing.Point(25, 5);
             label60.Name = "label60";
-            label60.Size = new System.Drawing.Size(99, 23);
+            label60.Size = new System.Drawing.Size(60, 23);
             label60.TabIndex = 28;
-            label60.Text = "Atendente";
+            label60.Text = "Aluno";
             label60.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label62
@@ -631,11 +631,11 @@
             label64.AutoSize = true;
             label64.Font = new System.Drawing.Font("Microsoft JhengHei", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label64.ForeColor = System.Drawing.Color.Transparent;
-            label64.Location = new System.Drawing.Point(5, 5);
+            label64.Location = new System.Drawing.Point(25, 5);
             label64.Name = "label64";
-            label64.Size = new System.Drawing.Size(99, 23);
+            label64.Size = new System.Drawing.Size(60, 23);
             label64.TabIndex = 28;
-            label64.Text = "Atendente";
+            label64.Text = "Aluno";
             label64.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label66
@@ -655,11 +655,11 @@
             label68.AutoSize = true;
             label68.Font = new System.Drawing.Font("Microsoft JhengHei", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label68.ForeColor = System.Drawing.Color.Transparent;
-            label68.Location = new System.Drawing.Point(5, 5);
+            label68.Location = new System.Drawing.Point(25, 5);
             label68.Name = "label68";
-            label68.Size = new System.Drawing.Size(99, 23);
+            label68.Size = new System.Drawing.Size(60, 23);
             label68.TabIndex = 28;
-            label68.Text = "Atendente";
+            label68.Text = "Aluno";
             label68.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label70
@@ -830,12 +830,12 @@
             // 
             // labelTitleL
             // 
-            this.labelTitleL.AutoSize = true;
+            this.labelTitleL.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelTitleL.Font = new System.Drawing.Font("Microsoft JhengHei", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTitleL.ForeColor = System.Drawing.Color.White;
-            this.labelTitleL.Location = new System.Drawing.Point(117, 18);
+            this.labelTitleL.Location = new System.Drawing.Point(0, 0);
             this.labelTitleL.Name = "labelTitleL";
-            this.labelTitleL.Size = new System.Drawing.Size(108, 43);
+            this.labelTitleL.Size = new System.Drawing.Size(376, 81);
             this.labelTitleL.TabIndex = 27;
             this.labelTitleL.Text = "C.O.2";
             this.labelTitleL.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -873,12 +873,12 @@
             // 
             // labelTitleR
             // 
-            this.labelTitleR.AutoSize = true;
+            this.labelTitleR.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelTitleR.Font = new System.Drawing.Font("Microsoft JhengHei", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTitleR.ForeColor = System.Drawing.Color.White;
-            this.labelTitleR.Location = new System.Drawing.Point(117, 18);
+            this.labelTitleR.Location = new System.Drawing.Point(0, 0);
             this.labelTitleR.Name = "labelTitleR";
-            this.labelTitleR.Size = new System.Drawing.Size(108, 43);
+            this.labelTitleR.Size = new System.Drawing.Size(376, 81);
             this.labelTitleR.TabIndex = 27;
             this.labelTitleR.Text = "C.O.2";
             this.labelTitleR.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -916,12 +916,12 @@
             // 
             // labelTitleC
             // 
-            this.labelTitleC.AutoSize = true;
+            this.labelTitleC.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelTitleC.Font = new System.Drawing.Font("Microsoft JhengHei", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTitleC.ForeColor = System.Drawing.Color.White;
-            this.labelTitleC.Location = new System.Drawing.Point(142, 18);
+            this.labelTitleC.Location = new System.Drawing.Point(0, 0);
             this.labelTitleC.Name = "labelTitleC";
-            this.labelTitleC.Size = new System.Drawing.Size(108, 43);
+            this.labelTitleC.Size = new System.Drawing.Size(376, 81);
             this.labelTitleC.TabIndex = 27;
             this.labelTitleC.Text = "C.O.2";
             this.labelTitleC.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2037,15 +2037,12 @@
             this.Text = "Painel3";
             this.Load += new System.EventHandler(this.Painel3_Load);
             this.panelTitle.ResumeLayout(false);
-            this.panelTitle.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             this.panelStatus0.ResumeLayout(false);
