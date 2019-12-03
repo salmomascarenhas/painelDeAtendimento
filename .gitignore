@@ -1,0 +1,4 @@
+
+*.exe
+bin/Debug/Painel_Pacientes.exe.config
+bin/Debug/Painel_Pacientes.pdb
