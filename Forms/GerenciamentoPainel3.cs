@@ -45,6 +45,10 @@ namespace Painel_Pacientes.Forms
             comboBoxStatus14.Items.AddRange(new string[] { "Livre", "Aguardando atendimento", "Em atendimento" });
             comboBoxStatus15.Items.AddRange(new string[] { "Livre", "Aguardando atendimento", "Em atendimento" });
 
+            comboBoxTitleL.Items.AddRange(new string[] { "GED", "Sorriso Aberto", "Sorriso Positivo" });
+            comboBoxTitleC.Items.AddRange(new string[] { "GED", "Sorriso Aberto", "Sorriso Positivo" });
+            comboBoxTitleR.Items.AddRange(new string[] { "GED", "Sorriso Aberto", "Sorriso Positivo" });
+
             comboBoxStatus1.SelectedIndex = 0;
             comboBoxStatus2.SelectedIndex = 0;
             comboBoxStatus3.SelectedIndex = 0;
@@ -61,74 +65,28 @@ namespace Painel_Pacientes.Forms
             comboBoxStatus14.SelectedIndex = 0;
             comboBoxStatus15.SelectedIndex = 0;
 
+           
+
             this.painel3 = new Painel3();
             this.painel3.Show();
         }
 
         #region "Atualizações do título"
-
-        private void buttonUpdateTitleL_Click(object sender, EventArgs e)
+        private void comboBoxTitleL_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (this.textBoxTitleL.Text == String.Empty)
-            {
-                this.textBoxTitleL.Focus();
-                return;
-            }
-
-            painel3.RefreshTitle(1, this.textBoxTitleL.Text);
+            painel3.RefreshTitle(1, this.comboBoxTitleL.Text);
         }
 
-        private void buttonUpdateTitleC_Click(object sender, EventArgs e)
+        private void comboBoxTitleC_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (this.textBoxTitleC.Text == String.Empty)
-            {
-                this.textBoxTitleC.Focus();
-                return;
-            }
-
-            painel3.RefreshTitle(2, this.textBoxTitleC.Text);
+            painel3.RefreshTitle(2, this.comboBoxTitleC.Text);
         }
 
-        private void buttonUpdateTitleR_Click(object sender, EventArgs e)
+        private void comboBoxTitleR_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (this.textBoxTitleR.Text == String.Empty)
-            {
-                this.textBoxTitleR.Focus();
-                return;
-            }
-
-            painel3.RefreshTitle(3, this.textBoxTitleR.Text);
+            painel3.RefreshTitle(3, this.comboBoxTitleR.Text);
         }
-
-
-        private void textBoxTitleL_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-            {
-                this.buttonUpdateTitleL_Click(new object(), new EventArgs());
-            }
-        }
-
-        private void textBoxTitleC_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-            {
-                this.buttonUpdateTitleC_Click(new object(), new EventArgs());
-            }
-        }
-
-        private void textBoxTitleR_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-            {
-                this.buttonUpdateTitleR_Click(new object(), new EventArgs());
-            }
-        }
-
-
-
-
-
+        
         #endregion
 
         #region "métodos coluna esquerda"
@@ -663,5 +621,7 @@ namespace Painel_Pacientes.Forms
         }
 
         #endregion
+
+        
     }
 }

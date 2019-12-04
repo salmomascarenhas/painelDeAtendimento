@@ -42,7 +42,6 @@ namespace Painel_Pacientes.Forms
             comboBoxStatus10.Items.AddRange(new string[] { "Livre", "Aguardando atendimento", "Em atendimento" });
 
             comboBoxTitleL.Items.AddRange(new string[] { "GED", "Sorriso Aberto", "Sorriso Positivo" });
-
             comboBoxTitleR.Items.AddRange(new string[] { "GED", "Sorriso Aberto", "Sorriso Positivo" });
 
             comboBoxStatus1.SelectedIndex = 0;
@@ -60,9 +59,22 @@ namespace Painel_Pacientes.Forms
             this.painel2 = new Painel2();
             this.painel2.Show();
         }
-        #region "Atualizações do título"
-        
 
+        #region "Atualizações do título"
+
+        private void comboBoxTitleL_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            painel2.RefreshTitle(1, this.comboBoxTitleL.Text);
+        }
+
+        private void comboBoxTitleR_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            painel2.RefreshTitle(2, this.comboBoxTitleR.Text);
+        }
+
+        #endregion
+
+        #region "Atualização do painel"
         private void buttonUpdatePanel_Click(object sender, EventArgs e)
         {
             painel2.RefreshPanel(1, this.pacientes);
@@ -72,7 +84,6 @@ namespace Painel_Pacientes.Forms
         {
             painel2.RefreshPanel(2, this.pacientes);
         }
-
         #endregion
 
         #region "métodos coluna esquerda"
@@ -418,14 +429,6 @@ namespace Painel_Pacientes.Forms
 
         #endregion
 
-        private void comboBoxTitleL_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            painel2.RefreshTitle(1, this.comboBoxTitleL.Text);
-        }
-
-        private void comboBoxTitleR_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            painel2.RefreshTitle(2, this.comboBoxTitleR.Text);
-        }
+        
     }
 }

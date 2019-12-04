@@ -50,12 +50,23 @@ namespace Painel_Pacientes.Forms
             this.painel1.Show();
         }
 
+        #region "Atualização do painel"
         private void ButtonUpdate_Click(object sender, EventArgs e)
         {
             painel1.RefreshPanel(this.pacientes);           
         }
 
-        
+        #endregion
+
+        #region "Atualização do título"
+        private void comboBoxTitle_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            painel1.RefreshTitle(this.comboBoxTitle.Text);
+        }
+
+        #endregion
+
+        #region "métodos dos pacientes"
 
         private void TextBoxPaciente1_TextChanged(object sender, EventArgs e)
         {
@@ -71,11 +82,6 @@ namespace Painel_Pacientes.Forms
         private void ComboBoxStatus1_SelectedIndexChanged(object sender, EventArgs e)
         {
            pacientes[0].Status = comboBoxStatus1.SelectedIndex;
-        }
-
-        private void TextBoxTitle_TextChanged(object sender, EventArgs e)
-        {
-           
         }
 
         private void TextBoxPaciente2_TextChanged(object sender, EventArgs e)
@@ -233,15 +239,7 @@ namespace Painel_Pacientes.Forms
             if (e.KeyCode == Keys.Enter)
                 this.ButtonUpdate_Click(new object(), new EventArgs());
         }
+        #endregion
 
-        private void comboBoxTitle_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            //if (this.comboBoxTitle.Text == String.Empty)
-            //{
-             //   return;
-            //}
-
-            painel1.RefreshTitle(this.comboBoxTitle.Text);
-        }
     }
 }

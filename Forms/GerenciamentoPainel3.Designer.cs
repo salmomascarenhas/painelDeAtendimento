@@ -96,8 +96,6 @@
             this.textBoxAtendente15 = new System.Windows.Forms.TextBox();
             this.comboBoxStatus15 = new System.Windows.Forms.ComboBox();
             this.buttonUpdatePanelR = new System.Windows.Forms.Button();
-            this.textBoxTitleR = new System.Windows.Forms.TextBox();
-            this.buttonUpdateTitleR = new System.Windows.Forms.Button();
             this.textBoxPaciente1 = new System.Windows.Forms.TextBox();
             this.textBoxAtendente1 = new System.Windows.Forms.TextBox();
             this.comboBoxStatus1 = new System.Windows.Forms.ComboBox();
@@ -114,8 +112,6 @@
             this.textBoxAtendente5 = new System.Windows.Forms.TextBox();
             this.comboBoxStatus5 = new System.Windows.Forms.ComboBox();
             this.buttonUpdatePanelL = new System.Windows.Forms.Button();
-            this.textBoxTitleL = new System.Windows.Forms.TextBox();
-            this.buttonUpdateTitleL = new System.Windows.Forms.Button();
             this.textBoxPaciente6 = new System.Windows.Forms.TextBox();
             this.textBoxAtendente6 = new System.Windows.Forms.TextBox();
             this.comboBoxStatus6 = new System.Windows.Forms.ComboBox();
@@ -132,8 +128,9 @@
             this.textBoxAtendente10 = new System.Windows.Forms.TextBox();
             this.comboBoxStatus10 = new System.Windows.Forms.ComboBox();
             this.buttonUpdatePanelC = new System.Windows.Forms.Button();
-            this.textBoxTitleC = new System.Windows.Forms.TextBox();
-            this.buttonUpdateTitleC = new System.Windows.Forms.Button();
+            this.comboBoxTitleL = new System.Windows.Forms.ComboBox();
+            this.comboBoxTitleC = new System.Windows.Forms.ComboBox();
+            this.comboBoxTitleR = new System.Windows.Forms.ComboBox();
             groupBox2 = new System.Windows.Forms.GroupBox();
             label18 = new System.Windows.Forms.Label();
             label19 = new System.Windows.Forms.Label();
@@ -193,6 +190,7 @@
             // 
             // groupBox2
             // 
+            groupBox2.Controls.Add(this.comboBoxTitleR);
             groupBox2.Controls.Add(label18);
             groupBox2.Controls.Add(label19);
             groupBox2.Controls.Add(label20);
@@ -225,8 +223,6 @@
             groupBox2.Controls.Add(this.textBoxAtendente15);
             groupBox2.Controls.Add(this.comboBoxStatus15);
             groupBox2.Controls.Add(this.buttonUpdatePanelR);
-            groupBox2.Controls.Add(this.textBoxTitleR);
-            groupBox2.Controls.Add(this.buttonUpdateTitleR);
             groupBox2.Location = new System.Drawing.Point(897, 33);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new System.Drawing.Size(440, 356);
@@ -548,27 +544,9 @@
             this.buttonUpdatePanelR.UseVisualStyleBackColor = true;
             this.buttonUpdatePanelR.Click += new System.EventHandler(this.buttonUpdatePanelR_Click);
             // 
-            // textBoxTitleR
-            // 
-            this.textBoxTitleR.Location = new System.Drawing.Point(175, 29);
-            this.textBoxTitleR.MaxLength = 10;
-            this.textBoxTitleR.Name = "textBoxTitleR";
-            this.textBoxTitleR.Size = new System.Drawing.Size(132, 20);
-            this.textBoxTitleR.TabIndex = 35;
-            this.textBoxTitleR.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxTitleR_KeyDown);
-            // 
-            // buttonUpdateTitleR
-            // 
-            this.buttonUpdateTitleR.Location = new System.Drawing.Point(200, 55);
-            this.buttonUpdateTitleR.Name = "buttonUpdateTitleR";
-            this.buttonUpdateTitleR.Size = new System.Drawing.Size(83, 39);
-            this.buttonUpdateTitleR.TabIndex = 68;
-            this.buttonUpdateTitleR.Text = "Atualizar título";
-            this.buttonUpdateTitleR.UseVisualStyleBackColor = true;
-            this.buttonUpdateTitleR.Click += new System.EventHandler(this.buttonUpdateTitleR_Click);
-            // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(this.comboBoxTitleL);
             groupBox1.Controls.Add(label17);
             groupBox1.Controls.Add(label1);
             groupBox1.Controls.Add(label2);
@@ -601,8 +579,6 @@
             groupBox1.Controls.Add(this.textBoxAtendente5);
             groupBox1.Controls.Add(this.comboBoxStatus5);
             groupBox1.Controls.Add(this.buttonUpdatePanelL);
-            groupBox1.Controls.Add(this.textBoxTitleL);
-            groupBox1.Controls.Add(this.buttonUpdateTitleL);
             groupBox1.Location = new System.Drawing.Point(5, 33);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new System.Drawing.Size(440, 356);
@@ -924,25 +900,6 @@
             this.buttonUpdatePanelL.UseVisualStyleBackColor = true;
             this.buttonUpdatePanelL.Click += new System.EventHandler(this.buttonUpdatePanelL_Click);
             // 
-            // textBoxTitleL
-            // 
-            this.textBoxTitleL.Location = new System.Drawing.Point(175, 29);
-            this.textBoxTitleL.MaxLength = 10;
-            this.textBoxTitleL.Name = "textBoxTitleL";
-            this.textBoxTitleL.Size = new System.Drawing.Size(132, 20);
-            this.textBoxTitleL.TabIndex = 35;
-            this.textBoxTitleL.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxTitleL_KeyDown);
-            // 
-            // buttonUpdateTitleL
-            // 
-            this.buttonUpdateTitleL.Location = new System.Drawing.Point(200, 55);
-            this.buttonUpdateTitleL.Name = "buttonUpdateTitleL";
-            this.buttonUpdateTitleL.Size = new System.Drawing.Size(83, 39);
-            this.buttonUpdateTitleL.TabIndex = 68;
-            this.buttonUpdateTitleL.Text = "Atualizar título";
-            this.buttonUpdateTitleL.UseVisualStyleBackColor = true;
-            this.buttonUpdateTitleL.Click += new System.EventHandler(this.buttonUpdateTitleL_Click);
-            // 
             // label4
             // 
             label4.AutoSize = true;
@@ -955,6 +912,7 @@
             // 
             // groupBox3
             // 
+            groupBox3.Controls.Add(this.comboBoxTitleC);
             groupBox3.Controls.Add(label34);
             groupBox3.Controls.Add(label35);
             groupBox3.Controls.Add(label36);
@@ -987,8 +945,6 @@
             groupBox3.Controls.Add(this.textBoxAtendente10);
             groupBox3.Controls.Add(this.comboBoxStatus10);
             groupBox3.Controls.Add(this.buttonUpdatePanelC);
-            groupBox3.Controls.Add(this.textBoxTitleC);
-            groupBox3.Controls.Add(this.buttonUpdateTitleC);
             groupBox3.Location = new System.Drawing.Point(451, 33);
             groupBox3.Name = "groupBox3";
             groupBox3.Size = new System.Drawing.Size(440, 356);
@@ -1310,24 +1266,38 @@
             this.buttonUpdatePanelC.UseVisualStyleBackColor = true;
             this.buttonUpdatePanelC.Click += new System.EventHandler(this.buttonUpdatePanelC_Click);
             // 
-            // textBoxTitleC
+            // comboBoxTitleL
             // 
-            this.textBoxTitleC.Location = new System.Drawing.Point(175, 29);
-            this.textBoxTitleC.MaxLength = 10;
-            this.textBoxTitleC.Name = "textBoxTitleC";
-            this.textBoxTitleC.Size = new System.Drawing.Size(132, 20);
-            this.textBoxTitleC.TabIndex = 35;
-            this.textBoxTitleC.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxTitleC_KeyDown);
+            this.comboBoxTitleL.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.comboBoxTitleL.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBoxTitleL.FormattingEnabled = true;
+            this.comboBoxTitleL.Location = new System.Drawing.Point(179, 29);
+            this.comboBoxTitleL.Name = "comboBoxTitleL";
+            this.comboBoxTitleL.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxTitleL.TabIndex = 69;
+            this.comboBoxTitleL.SelectedIndexChanged += new System.EventHandler(this.comboBoxTitleL_SelectedIndexChanged);
             // 
-            // buttonUpdateTitleC
+            // comboBoxTitleC
             // 
-            this.buttonUpdateTitleC.Location = new System.Drawing.Point(200, 55);
-            this.buttonUpdateTitleC.Name = "buttonUpdateTitleC";
-            this.buttonUpdateTitleC.Size = new System.Drawing.Size(83, 39);
-            this.buttonUpdateTitleC.TabIndex = 68;
-            this.buttonUpdateTitleC.Text = "Atualizar título";
-            this.buttonUpdateTitleC.UseVisualStyleBackColor = true;
-            this.buttonUpdateTitleC.Click += new System.EventHandler(this.buttonUpdateTitleC_Click);
+            this.comboBoxTitleC.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.comboBoxTitleC.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBoxTitleC.FormattingEnabled = true;
+            this.comboBoxTitleC.Location = new System.Drawing.Point(179, 28);
+            this.comboBoxTitleC.Name = "comboBoxTitleC";
+            this.comboBoxTitleC.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxTitleC.TabIndex = 70;
+            this.comboBoxTitleC.SelectedIndexChanged += new System.EventHandler(this.comboBoxTitleC_SelectedIndexChanged);
+            // 
+            // comboBoxTitleR
+            // 
+            this.comboBoxTitleR.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.comboBoxTitleR.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBoxTitleR.FormattingEnabled = true;
+            this.comboBoxTitleR.Location = new System.Drawing.Point(179, 28);
+            this.comboBoxTitleR.Name = "comboBoxTitleR";
+            this.comboBoxTitleR.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxTitleR.TabIndex = 71;
+            this.comboBoxTitleR.SelectedIndexChanged += new System.EventHandler(this.comboBoxTitleR_SelectedIndexChanged);
             // 
             // GerenciamentoPainel3
             // 
@@ -1371,8 +1341,6 @@
         private System.Windows.Forms.TextBox textBoxAtendente15;
         private System.Windows.Forms.ComboBox comboBoxStatus15;
         private System.Windows.Forms.Button buttonUpdatePanelR;
-        private System.Windows.Forms.TextBox textBoxTitleR;
-        private System.Windows.Forms.Button buttonUpdateTitleR;
         private System.Windows.Forms.TextBox textBoxPaciente1;
         private System.Windows.Forms.TextBox textBoxAtendente1;
         private System.Windows.Forms.ComboBox comboBoxStatus1;
@@ -1389,8 +1357,6 @@
         private System.Windows.Forms.TextBox textBoxAtendente5;
         private System.Windows.Forms.ComboBox comboBoxStatus5;
         private System.Windows.Forms.Button buttonUpdatePanelL;
-        private System.Windows.Forms.TextBox textBoxTitleL;
-        private System.Windows.Forms.Button buttonUpdateTitleL;
         private System.Windows.Forms.TextBox textBoxPaciente6;
         private System.Windows.Forms.TextBox textBoxAtendente6;
         private System.Windows.Forms.ComboBox comboBoxStatus6;
@@ -1407,7 +1373,8 @@
         private System.Windows.Forms.TextBox textBoxAtendente10;
         private System.Windows.Forms.ComboBox comboBoxStatus10;
         private System.Windows.Forms.Button buttonUpdatePanelC;
-        private System.Windows.Forms.TextBox textBoxTitleC;
-        private System.Windows.Forms.Button buttonUpdateTitleC;
+        private System.Windows.Forms.ComboBox comboBoxTitleL;
+        private System.Windows.Forms.ComboBox comboBoxTitleR;
+        private System.Windows.Forms.ComboBox comboBoxTitleC;
     }
 }
