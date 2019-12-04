@@ -1,2 +1,2 @@
 # painelDeAtendimento
- Painel de atendimento utilizando nas clínicas de atendimento do curso de Odontologia.
+ Painel de atendimento utilizado nas clínicas de atendimento do curso de Odontologia.
