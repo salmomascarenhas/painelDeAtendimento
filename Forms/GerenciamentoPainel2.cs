@@ -29,17 +29,17 @@ namespace Painel_Pacientes.Forms
 
         private void GerenciamentoPainel2_Load(object sender, EventArgs e)
         {
-            comboBoxStatus1.Items.AddRange(new string[] { "Livre", "Aguardando atendimento", "Em atendimento" });
-            comboBoxStatus2.Items.AddRange(new string[] { "Livre", "Aguardando atendimento", "Em atendimento" });
-            comboBoxStatus3.Items.AddRange(new string[] { "Livre", "Aguardando atendimento", "Em atendimento" });
-            comboBoxStatus4.Items.AddRange(new string[] { "Livre", "Aguardando atendimento", "Em atendimento" });
-            comboBoxStatus5.Items.AddRange(new string[] { "Livre", "Aguardando atendimento", "Em atendimento" });
+            comboBoxStatus1.Items.AddRange(new string[] { "Livre", "Aguardando atendimento", "Em atendimento", "Emergência" });
+            comboBoxStatus2.Items.AddRange(new string[] { "Livre", "Aguardando atendimento", "Em atendimento", "Emergência" });
+            comboBoxStatus3.Items.AddRange(new string[] { "Livre", "Aguardando atendimento", "Em atendimento", "Emergência" });
+            comboBoxStatus4.Items.AddRange(new string[] { "Livre", "Aguardando atendimento", "Em atendimento", "Emergência" });
+            comboBoxStatus5.Items.AddRange(new string[] { "Livre", "Aguardando atendimento", "Em atendimento", "Emergência" });
 
-            comboBoxStatus6.Items.AddRange(new string[] { "Livre", "Aguardando atendimento", "Em atendimento" });
-            comboBoxStatus7.Items.AddRange(new string[] { "Livre", "Aguardando atendimento", "Em atendimento" });
-            comboBoxStatus8.Items.AddRange(new string[] { "Livre", "Aguardando atendimento", "Em atendimento" });
-            comboBoxStatus9.Items.AddRange(new string[] { "Livre", "Aguardando atendimento", "Em atendimento" });
-            comboBoxStatus10.Items.AddRange(new string[] { "Livre", "Aguardando atendimento", "Em atendimento" });
+            comboBoxStatus6.Items.AddRange(new string[] { "Livre", "Aguardando atendimento", "Em atendimento", "Emergência" });
+            comboBoxStatus7.Items.AddRange(new string[] { "Livre", "Aguardando atendimento", "Em atendimento", "Emergência" });
+            comboBoxStatus8.Items.AddRange(new string[] { "Livre", "Aguardando atendimento", "Em atendimento", "Emergência" });
+            comboBoxStatus9.Items.AddRange(new string[] { "Livre", "Aguardando atendimento", "Em atendimento", "Emergência" });
+            comboBoxStatus10.Items.AddRange(new string[] { "Livre", "Aguardando atendimento", "Em atendimento", "Emergência" });
 
             comboBoxTitleL.Items.AddRange(new string[] { "GED", "Sorriso Aberto", "Sorriso Positivo" });
             comboBoxTitleR.Items.AddRange(new string[] { "GED", "Sorriso Aberto", "Sorriso Positivo" });

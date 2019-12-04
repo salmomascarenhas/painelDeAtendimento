@@ -32,11 +32,11 @@ namespace Painel_Pacientes.Forms
 
         private void GerenciamentoPainel1_Load(object sender, EventArgs e)
         {
-            comboBoxStatus2.Items.AddRange(new string[] { "Livre","Aguardando atendimento","Em atendimento" });
-            comboBoxStatus1.Items.AddRange(new string[] { "Livre","Aguardando atendimento","Em atendimento"});
-            comboBoxStatus3.Items.AddRange(new string[] { "Livre","Aguardando atendimento","Em atendimento" });
-            comboBoxStatus4.Items.AddRange(new string[] { "Livre","Aguardando atendimento","Em atendimento" });
-            comboBoxStatus5.Items.AddRange(new string[] { "Livre","Aguardando atendimento","Em atendimento" });
+            comboBoxStatus1.Items.AddRange(new string[] { "Livre","Aguardando atendimento","Em atendimento","Emergência"});
+            comboBoxStatus2.Items.AddRange(new string[] { "Livre","Aguardando atendimento","Em atendimento", "Emergência" });
+            comboBoxStatus3.Items.AddRange(new string[] { "Livre","Aguardando atendimento","Em atendimento", "Emergência" });
+            comboBoxStatus4.Items.AddRange(new string[] { "Livre","Aguardando atendimento","Em atendimento", "Emergência" });
+            comboBoxStatus5.Items.AddRange(new string[] { "Livre","Aguardando atendimento","Em atendimento", "Emergência" });
 
             comboBoxTitle.Items.AddRange(new string[] { "GED", "Sorriso Aberto", "Sorriso Positivo" });
 

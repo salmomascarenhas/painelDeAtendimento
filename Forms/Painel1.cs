@@ -51,10 +51,15 @@ namespace Painel_Pacientes.Forms
                             panelStatus0.BackColor = Color.Gold;
 
                         }
-                        else
+                        else if(pacientes[i].Status == 2)
                         {
                             labelStatus0.Text = "Atendim.";
                             panelStatus0.BackColor = Color.FromArgb(255, 144, 72);
+                        }
+                        else
+                        {
+                            labelStatus0.Text = "Emergên.";
+                            panelStatus0.BackColor = Color.FromArgb(255, 0, 0);
                         }
                         break;
                     case 1:
@@ -74,10 +79,15 @@ namespace Painel_Pacientes.Forms
                             panelStatus1.BackColor = Color.Gold;
 
                         }
-                        else
+                        else if(pacientes[i].Status == 1)
                         {
                             labelStatus1.Text = "Atendim.";
                             panelStatus1.BackColor = Color.FromArgb(255, 144, 72);
+                        }
+                        else
+                        {
+                            labelStatus1.Text = "Emergên.";
+                            panelStatus1.BackColor = Color.FromArgb(255, 0, 0);
                         }
                         break;
                     case 2:
@@ -97,10 +107,15 @@ namespace Painel_Pacientes.Forms
                             panelStatus2.BackColor = Color.Gold;
 
                         }
-                        else
+                        else if(pacientes[i].Status == 2)
                         {
                             labelStatus2.Text = "Atendim.";
                             panelStatus2.BackColor = Color.FromArgb(255, 144, 72);
+                        }
+                        else
+                        {
+                            labelStatus2.Text = "Emergên.";
+                            panelStatus2.BackColor = Color.FromArgb(255, 0, 0);
                         }
                         break;
                     case 3:
@@ -120,10 +135,15 @@ namespace Painel_Pacientes.Forms
                             panelStatus3.BackColor = Color.Gold;
 
                         }
-                        else
+                        else if(pacientes[i].Status == 2)
                         {
                             labelStatus3.Text = "Atendim.";
                             panelStatus3.BackColor = Color.FromArgb(255, 144, 72);
+                        }
+                        else
+                        {
+                            labelStatus3.Text = "Emergên.";
+                            panelStatus3.BackColor = Color.FromArgb(255, 0, 0);
                         }
                         break;
                     case 4:
@@ -143,10 +163,14 @@ namespace Painel_Pacientes.Forms
                             panelStatus4.BackColor = Color.Gold;
 
                         }
-                        else
+                        else if(pacientes[i].Status == 2)
                         {
                             labelStatus4.Text = "Atendim.";
                             panelStatus4.BackColor = Color.FromArgb(255, 144, 72);
+                        }else
+                        {
+                            labelStatus4.Text = "Emergên.";
+                            panelStatus4.BackColor = Color.FromArgb(255, 0, 0);
                         }
                         break;
                     default:

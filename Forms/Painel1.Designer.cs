@@ -373,14 +373,14 @@
             // 
             // labelStatus0
             // 
-            this.labelStatus0.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.labelStatus0.AutoSize = true;
             this.labelStatus0.Font = new System.Drawing.Font("Microsoft JhengHei", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelStatus0.ForeColor = System.Drawing.Color.White;
-            this.labelStatus0.Location = new System.Drawing.Point(0, 0);
+            this.labelStatus0.Location = new System.Drawing.Point(-7, 28);
             this.labelStatus0.Name = "labelStatus0";
-            this.labelStatus0.Size = new System.Drawing.Size(123, 80);
+            this.labelStatus0.Size = new System.Drawing.Size(138, 35);
             this.labelStatus0.TabIndex = 26;
-            this.labelStatus0.Text = "Livre";
+            this.labelStatus0.Text = "Emergên.";
             this.labelStatus0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel4

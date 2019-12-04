@@ -592,11 +592,11 @@
             this.labelStatus0.AutoSize = true;
             this.labelStatus0.Font = new System.Drawing.Font("Microsoft JhengHei", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelStatus0.ForeColor = System.Drawing.Color.White;
-            this.labelStatus0.Location = new System.Drawing.Point(3, 32);
+            this.labelStatus0.Location = new System.Drawing.Point(-3, 32);
             this.labelStatus0.Name = "labelStatus0";
-            this.labelStatus0.Size = new System.Drawing.Size(54, 24);
+            this.labelStatus0.Size = new System.Drawing.Size(98, 24);
             this.labelStatus0.TabIndex = 26;
-            this.labelStatus0.Text = "Livre";
+            this.labelStatus0.Text = "Emergên.";
             this.labelStatus0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel2
@@ -723,7 +723,7 @@
             this.labelStatus5.AutoSize = true;
             this.labelStatus5.Font = new System.Drawing.Font("Microsoft JhengHei", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelStatus5.ForeColor = System.Drawing.Color.White;
-            this.labelStatus5.Location = new System.Drawing.Point(1, 32);
+            this.labelStatus5.Location = new System.Drawing.Point(-3, 32);
             this.labelStatus5.Name = "labelStatus5";
             this.labelStatus5.Size = new System.Drawing.Size(54, 24);
             this.labelStatus5.TabIndex = 26;
@@ -767,7 +767,7 @@
             this.labelStatus6.AutoSize = true;
             this.labelStatus6.Font = new System.Drawing.Font("Microsoft JhengHei", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelStatus6.ForeColor = System.Drawing.Color.White;
-            this.labelStatus6.Location = new System.Drawing.Point(1, 32);
+            this.labelStatus6.Location = new System.Drawing.Point(-3, 32);
             this.labelStatus6.Name = "labelStatus6";
             this.labelStatus6.Size = new System.Drawing.Size(54, 24);
             this.labelStatus6.TabIndex = 26;
@@ -845,7 +845,7 @@
             this.labelStatus1.AutoSize = true;
             this.labelStatus1.Font = new System.Drawing.Font("Microsoft JhengHei", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelStatus1.ForeColor = System.Drawing.Color.White;
-            this.labelStatus1.Location = new System.Drawing.Point(2, 31);
+            this.labelStatus1.Location = new System.Drawing.Point(-2, 31);
             this.labelStatus1.Name = "labelStatus1";
             this.labelStatus1.Size = new System.Drawing.Size(84, 24);
             this.labelStatus1.TabIndex = 26;
@@ -911,7 +911,7 @@
             this.labelStatus7.AutoSize = true;
             this.labelStatus7.Font = new System.Drawing.Font("Microsoft JhengHei", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelStatus7.ForeColor = System.Drawing.Color.White;
-            this.labelStatus7.Location = new System.Drawing.Point(3, 31);
+            this.labelStatus7.Location = new System.Drawing.Point(-1, 31);
             this.labelStatus7.Name = "labelStatus7";
             this.labelStatus7.Size = new System.Drawing.Size(54, 24);
             this.labelStatus7.TabIndex = 26;
@@ -989,7 +989,7 @@
             this.labelStatus2.AutoSize = true;
             this.labelStatus2.Font = new System.Drawing.Font("Microsoft JhengHei", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelStatus2.ForeColor = System.Drawing.Color.White;
-            this.labelStatus2.Location = new System.Drawing.Point(3, 34);
+            this.labelStatus2.Location = new System.Drawing.Point(-1, 34);
             this.labelStatus2.Name = "labelStatus2";
             this.labelStatus2.Size = new System.Drawing.Size(76, 24);
             this.labelStatus2.TabIndex = 26;
@@ -1055,7 +1055,7 @@
             this.labelStatus8.AutoSize = true;
             this.labelStatus8.Font = new System.Drawing.Font("Microsoft JhengHei", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelStatus8.ForeColor = System.Drawing.Color.White;
-            this.labelStatus8.Location = new System.Drawing.Point(3, 31);
+            this.labelStatus8.Location = new System.Drawing.Point(-1, 31);
             this.labelStatus8.Name = "labelStatus8";
             this.labelStatus8.Size = new System.Drawing.Size(54, 24);
             this.labelStatus8.TabIndex = 26;
@@ -1121,7 +1121,7 @@
             this.labelStatus3.AutoSize = true;
             this.labelStatus3.Font = new System.Drawing.Font("Microsoft JhengHei", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelStatus3.ForeColor = System.Drawing.Color.White;
-            this.labelStatus3.Location = new System.Drawing.Point(1, 34);
+            this.labelStatus3.Location = new System.Drawing.Point(-3, 34);
             this.labelStatus3.Name = "labelStatus3";
             this.labelStatus3.Size = new System.Drawing.Size(54, 24);
             this.labelStatus3.TabIndex = 26;
@@ -1187,7 +1187,7 @@
             this.labelStatus9.AutoSize = true;
             this.labelStatus9.Font = new System.Drawing.Font("Microsoft JhengHei", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelStatus9.ForeColor = System.Drawing.Color.White;
-            this.labelStatus9.Location = new System.Drawing.Point(3, 31);
+            this.labelStatus9.Location = new System.Drawing.Point(-1, 31);
             this.labelStatus9.Name = "labelStatus9";
             this.labelStatus9.Size = new System.Drawing.Size(54, 24);
             this.labelStatus9.TabIndex = 26;
@@ -1253,7 +1253,7 @@
             this.labelStatus4.AutoSize = true;
             this.labelStatus4.Font = new System.Drawing.Font("Microsoft JhengHei", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelStatus4.ForeColor = System.Drawing.Color.White;
-            this.labelStatus4.Location = new System.Drawing.Point(1, 34);
+            this.labelStatus4.Location = new System.Drawing.Point(-3, 34);
             this.labelStatus4.Name = "labelStatus4";
             this.labelStatus4.Size = new System.Drawing.Size(54, 24);
             this.labelStatus4.TabIndex = 26;
