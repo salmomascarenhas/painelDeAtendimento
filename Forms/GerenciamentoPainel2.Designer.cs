@@ -79,8 +79,6 @@
             this.textBoxAtendente5 = new System.Windows.Forms.TextBox();
             this.comboBoxStatus5 = new System.Windows.Forms.ComboBox();
             this.buttonUpdatePanelL = new System.Windows.Forms.Button();
-            this.textBoxTitleL = new System.Windows.Forms.TextBox();
-            this.buttonUpdateTitleL = new System.Windows.Forms.Button();
             this.textBoxPaciente6 = new System.Windows.Forms.TextBox();
             this.textBoxAtendente6 = new System.Windows.Forms.TextBox();
             this.comboBoxStatus6 = new System.Windows.Forms.ComboBox();
@@ -97,8 +95,8 @@
             this.textBoxAtendente10 = new System.Windows.Forms.TextBox();
             this.comboBoxStatus10 = new System.Windows.Forms.ComboBox();
             this.buttonUpdatePanelR = new System.Windows.Forms.Button();
-            this.textBoxTitleR = new System.Windows.Forms.TextBox();
-            this.buttonUpdateTitleR = new System.Windows.Forms.Button();
+            this.comboBoxTitleL = new System.Windows.Forms.ComboBox();
+            this.comboBoxTitleR = new System.Windows.Forms.ComboBox();
             label17 = new System.Windows.Forms.Label();
             label14 = new System.Windows.Forms.Label();
             label15 = new System.Windows.Forms.Label();
@@ -150,7 +148,7 @@
             // label14
             // 
             label14.AutoSize = true;
-            label14.Location = new System.Drawing.Point(315, 259);
+            label14.Location = new System.Drawing.Point(315, 224);
             label14.Name = "label14";
             label14.Size = new System.Drawing.Size(40, 13);
             label14.TabIndex = 65;
@@ -159,7 +157,7 @@
             // label15
             // 
             label15.AutoSize = true;
-            label15.Location = new System.Drawing.Point(172, 260);
+            label15.Location = new System.Drawing.Point(172, 225);
             label15.Name = "label15";
             label15.Size = new System.Drawing.Size(59, 13);
             label15.TabIndex = 64;
@@ -168,7 +166,7 @@
             // label16
             // 
             label16.AutoSize = true;
-            label16.Location = new System.Drawing.Point(34, 260);
+            label16.Location = new System.Drawing.Point(34, 225);
             label16.Name = "label16";
             label16.Size = new System.Drawing.Size(52, 13);
             label16.TabIndex = 63;
@@ -177,7 +175,7 @@
             // label11
             // 
             label11.AutoSize = true;
-            label11.Location = new System.Drawing.Point(315, 220);
+            label11.Location = new System.Drawing.Point(315, 185);
             label11.Name = "label11";
             label11.Size = new System.Drawing.Size(40, 13);
             label11.TabIndex = 62;
@@ -186,7 +184,7 @@
             // label12
             // 
             label12.AutoSize = true;
-            label12.Location = new System.Drawing.Point(172, 221);
+            label12.Location = new System.Drawing.Point(172, 186);
             label12.Name = "label12";
             label12.Size = new System.Drawing.Size(59, 13);
             label12.TabIndex = 61;
@@ -195,7 +193,7 @@
             // label13
             // 
             label13.AutoSize = true;
-            label13.Location = new System.Drawing.Point(34, 221);
+            label13.Location = new System.Drawing.Point(34, 186);
             label13.Name = "label13";
             label13.Size = new System.Drawing.Size(52, 13);
             label13.TabIndex = 60;
@@ -204,7 +202,7 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new System.Drawing.Point(315, 181);
+            label8.Location = new System.Drawing.Point(315, 146);
             label8.Name = "label8";
             label8.Size = new System.Drawing.Size(40, 13);
             label8.TabIndex = 58;
@@ -213,7 +211,7 @@
             // label9
             // 
             label9.AutoSize = true;
-            label9.Location = new System.Drawing.Point(172, 182);
+            label9.Location = new System.Drawing.Point(172, 147);
             label9.Name = "label9";
             label9.Size = new System.Drawing.Size(59, 13);
             label9.TabIndex = 56;
@@ -222,7 +220,7 @@
             // label10
             // 
             label10.AutoSize = true;
-            label10.Location = new System.Drawing.Point(34, 182);
+            label10.Location = new System.Drawing.Point(34, 147);
             label10.Name = "label10";
             label10.Size = new System.Drawing.Size(52, 13);
             label10.TabIndex = 54;
@@ -231,7 +229,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new System.Drawing.Point(315, 142);
+            label5.Location = new System.Drawing.Point(315, 107);
             label5.Name = "label5";
             label5.Size = new System.Drawing.Size(40, 13);
             label5.TabIndex = 50;
@@ -240,7 +238,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new System.Drawing.Point(172, 143);
+            label6.Location = new System.Drawing.Point(172, 108);
             label6.Name = "label6";
             label6.Size = new System.Drawing.Size(59, 13);
             label6.TabIndex = 47;
@@ -249,7 +247,7 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new System.Drawing.Point(34, 143);
+            label7.Location = new System.Drawing.Point(34, 108);
             label7.Name = "label7";
             label7.Size = new System.Drawing.Size(52, 13);
             label7.TabIndex = 45;
@@ -268,7 +266,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new System.Drawing.Point(315, 103);
+            label3.Location = new System.Drawing.Point(315, 68);
             label3.Name = "label3";
             label3.Size = new System.Drawing.Size(40, 13);
             label3.TabIndex = 38;
@@ -277,7 +275,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new System.Drawing.Point(172, 104);
+            label2.Location = new System.Drawing.Point(172, 69);
             label2.Name = "label2";
             label2.Size = new System.Drawing.Size(59, 13);
             label2.TabIndex = 37;
@@ -286,7 +284,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new System.Drawing.Point(34, 104);
+            label1.Location = new System.Drawing.Point(34, 69);
             label1.Name = "label1";
             label1.Size = new System.Drawing.Size(52, 13);
             label1.TabIndex = 34;
@@ -294,6 +292,7 @@
             // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(this.comboBoxTitleL);
             groupBox1.Controls.Add(label17);
             groupBox1.Controls.Add(label1);
             groupBox1.Controls.Add(label2);
@@ -326,8 +325,6 @@
             groupBox1.Controls.Add(this.textBoxAtendente5);
             groupBox1.Controls.Add(this.comboBoxStatus5);
             groupBox1.Controls.Add(this.buttonUpdatePanelL);
-            groupBox1.Controls.Add(this.textBoxTitleL);
-            groupBox1.Controls.Add(this.buttonUpdateTitleL);
             groupBox1.Location = new System.Drawing.Point(12, 32);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new System.Drawing.Size(450, 356);
@@ -337,7 +334,7 @@
             // 
             // textBoxPaciente1
             // 
-            this.textBoxPaciente1.Location = new System.Drawing.Point(37, 120);
+            this.textBoxPaciente1.Location = new System.Drawing.Point(37, 85);
             this.textBoxPaciente1.MaxLength = 16;
             this.textBoxPaciente1.Name = "textBoxPaciente1";
             this.textBoxPaciente1.Size = new System.Drawing.Size(132, 20);
@@ -347,7 +344,7 @@
             // 
             // textBoxAtendente1
             // 
-            this.textBoxAtendente1.Location = new System.Drawing.Point(175, 120);
+            this.textBoxAtendente1.Location = new System.Drawing.Point(175, 85);
             this.textBoxAtendente1.MaxLength = 16;
             this.textBoxAtendente1.Name = "textBoxAtendente1";
             this.textBoxAtendente1.Size = new System.Drawing.Size(132, 20);
@@ -360,7 +357,7 @@
             this.comboBoxStatus1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.comboBoxStatus1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.comboBoxStatus1.FormattingEnabled = true;
-            this.comboBoxStatus1.Location = new System.Drawing.Point(318, 119);
+            this.comboBoxStatus1.Location = new System.Drawing.Point(318, 84);
             this.comboBoxStatus1.Name = "comboBoxStatus1";
             this.comboBoxStatus1.Size = new System.Drawing.Size(121, 21);
             this.comboBoxStatus1.TabIndex = 40;
@@ -369,7 +366,7 @@
             // 
             // textBoxPaciente2
             // 
-            this.textBoxPaciente2.Location = new System.Drawing.Point(37, 159);
+            this.textBoxPaciente2.Location = new System.Drawing.Point(37, 124);
             this.textBoxPaciente2.MaxLength = 16;
             this.textBoxPaciente2.Name = "textBoxPaciente2";
             this.textBoxPaciente2.Size = new System.Drawing.Size(132, 20);
@@ -379,7 +376,7 @@
             // 
             // textBoxAtendente2
             // 
-            this.textBoxAtendente2.Location = new System.Drawing.Point(175, 159);
+            this.textBoxAtendente2.Location = new System.Drawing.Point(175, 124);
             this.textBoxAtendente2.MaxLength = 16;
             this.textBoxAtendente2.Name = "textBoxAtendente2";
             this.textBoxAtendente2.Size = new System.Drawing.Size(132, 20);
@@ -392,7 +389,7 @@
             this.comboBoxStatus2.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.comboBoxStatus2.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.comboBoxStatus2.FormattingEnabled = true;
-            this.comboBoxStatus2.Location = new System.Drawing.Point(318, 158);
+            this.comboBoxStatus2.Location = new System.Drawing.Point(318, 123);
             this.comboBoxStatus2.Name = "comboBoxStatus2";
             this.comboBoxStatus2.Size = new System.Drawing.Size(121, 21);
             this.comboBoxStatus2.TabIndex = 44;
@@ -401,7 +398,7 @@
             // 
             // textBoxPaciente3
             // 
-            this.textBoxPaciente3.Location = new System.Drawing.Point(37, 198);
+            this.textBoxPaciente3.Location = new System.Drawing.Point(37, 163);
             this.textBoxPaciente3.MaxLength = 16;
             this.textBoxPaciente3.Name = "textBoxPaciente3";
             this.textBoxPaciente3.Size = new System.Drawing.Size(132, 20);
@@ -411,7 +408,7 @@
             // 
             // textBoxAtendente3
             // 
-            this.textBoxAtendente3.Location = new System.Drawing.Point(175, 198);
+            this.textBoxAtendente3.Location = new System.Drawing.Point(175, 163);
             this.textBoxAtendente3.MaxLength = 16;
             this.textBoxAtendente3.Name = "textBoxAtendente3";
             this.textBoxAtendente3.Size = new System.Drawing.Size(132, 20);
@@ -424,7 +421,7 @@
             this.comboBoxStatus3.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.comboBoxStatus3.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.comboBoxStatus3.FormattingEnabled = true;
-            this.comboBoxStatus3.Location = new System.Drawing.Point(318, 197);
+            this.comboBoxStatus3.Location = new System.Drawing.Point(318, 162);
             this.comboBoxStatus3.Name = "comboBoxStatus3";
             this.comboBoxStatus3.Size = new System.Drawing.Size(121, 21);
             this.comboBoxStatus3.TabIndex = 49;
@@ -433,7 +430,7 @@
             // 
             // textBoxPaciente4
             // 
-            this.textBoxPaciente4.Location = new System.Drawing.Point(37, 237);
+            this.textBoxPaciente4.Location = new System.Drawing.Point(37, 202);
             this.textBoxPaciente4.MaxLength = 16;
             this.textBoxPaciente4.Name = "textBoxPaciente4";
             this.textBoxPaciente4.Size = new System.Drawing.Size(132, 20);
@@ -443,7 +440,7 @@
             // 
             // textBoxAtendente4
             // 
-            this.textBoxAtendente4.Location = new System.Drawing.Point(175, 237);
+            this.textBoxAtendente4.Location = new System.Drawing.Point(175, 202);
             this.textBoxAtendente4.MaxLength = 16;
             this.textBoxAtendente4.Name = "textBoxAtendente4";
             this.textBoxAtendente4.Size = new System.Drawing.Size(132, 20);
@@ -456,7 +453,7 @@
             this.comboBoxStatus4.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.comboBoxStatus4.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.comboBoxStatus4.FormattingEnabled = true;
-            this.comboBoxStatus4.Location = new System.Drawing.Point(318, 236);
+            this.comboBoxStatus4.Location = new System.Drawing.Point(318, 201);
             this.comboBoxStatus4.Name = "comboBoxStatus4";
             this.comboBoxStatus4.Size = new System.Drawing.Size(121, 21);
             this.comboBoxStatus4.TabIndex = 53;
@@ -465,7 +462,7 @@
             // 
             // textBoxPaciente5
             // 
-            this.textBoxPaciente5.Location = new System.Drawing.Point(37, 276);
+            this.textBoxPaciente5.Location = new System.Drawing.Point(37, 241);
             this.textBoxPaciente5.MaxLength = 16;
             this.textBoxPaciente5.Name = "textBoxPaciente5";
             this.textBoxPaciente5.Size = new System.Drawing.Size(132, 20);
@@ -475,7 +472,7 @@
             // 
             // textBoxAtendente5
             // 
-            this.textBoxAtendente5.Location = new System.Drawing.Point(175, 276);
+            this.textBoxAtendente5.Location = new System.Drawing.Point(175, 241);
             this.textBoxAtendente5.MaxLength = 16;
             this.textBoxAtendente5.Name = "textBoxAtendente5";
             this.textBoxAtendente5.Size = new System.Drawing.Size(132, 20);
@@ -488,7 +485,7 @@
             this.comboBoxStatus5.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.comboBoxStatus5.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.comboBoxStatus5.FormattingEnabled = true;
-            this.comboBoxStatus5.Location = new System.Drawing.Point(318, 275);
+            this.comboBoxStatus5.Location = new System.Drawing.Point(318, 240);
             this.comboBoxStatus5.Name = "comboBoxStatus5";
             this.comboBoxStatus5.Size = new System.Drawing.Size(121, 21);
             this.comboBoxStatus5.TabIndex = 59;
@@ -497,7 +494,7 @@
             // 
             // buttonUpdatePanelL
             // 
-            this.buttonUpdatePanelL.Location = new System.Drawing.Point(185, 314);
+            this.buttonUpdatePanelL.Location = new System.Drawing.Point(185, 279);
             this.buttonUpdatePanelL.Name = "buttonUpdatePanelL";
             this.buttonUpdatePanelL.Size = new System.Drawing.Size(111, 40);
             this.buttonUpdatePanelL.TabIndex = 66;
@@ -505,27 +502,9 @@
             this.buttonUpdatePanelL.UseVisualStyleBackColor = true;
             this.buttonUpdatePanelL.Click += new System.EventHandler(this.buttonUpdatePanel_Click);
             // 
-            // textBoxTitleL
-            // 
-            this.textBoxTitleL.Location = new System.Drawing.Point(175, 29);
-            this.textBoxTitleL.MaxLength = 10;
-            this.textBoxTitleL.Name = "textBoxTitleL";
-            this.textBoxTitleL.Size = new System.Drawing.Size(132, 20);
-            this.textBoxTitleL.TabIndex = 35;
-            this.textBoxTitleL.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxTitle_KeyDown);
-            // 
-            // buttonUpdateTitleL
-            // 
-            this.buttonUpdateTitleL.Location = new System.Drawing.Point(200, 55);
-            this.buttonUpdateTitleL.Name = "buttonUpdateTitleL";
-            this.buttonUpdateTitleL.Size = new System.Drawing.Size(83, 39);
-            this.buttonUpdateTitleL.TabIndex = 68;
-            this.buttonUpdateTitleL.Text = "Atualizar título";
-            this.buttonUpdateTitleL.UseVisualStyleBackColor = true;
-            this.buttonUpdateTitleL.Click += new System.EventHandler(this.buttonUpdateTitle_Click);
-            // 
             // groupBox2
             // 
+            groupBox2.Controls.Add(this.comboBoxTitleR);
             groupBox2.Controls.Add(label18);
             groupBox2.Controls.Add(label19);
             groupBox2.Controls.Add(label20);
@@ -558,8 +537,6 @@
             groupBox2.Controls.Add(this.textBoxAtendente10);
             groupBox2.Controls.Add(this.comboBoxStatus10);
             groupBox2.Controls.Add(this.buttonUpdatePanelR);
-            groupBox2.Controls.Add(this.textBoxTitleR);
-            groupBox2.Controls.Add(this.buttonUpdateTitleR);
             groupBox2.Location = new System.Drawing.Point(468, 32);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new System.Drawing.Size(450, 356);
@@ -579,7 +556,7 @@
             // label19
             // 
             label19.AutoSize = true;
-            label19.Location = new System.Drawing.Point(34, 104);
+            label19.Location = new System.Drawing.Point(24, 69);
             label19.Name = "label19";
             label19.Size = new System.Drawing.Size(52, 13);
             label19.TabIndex = 34;
@@ -588,7 +565,7 @@
             // label20
             // 
             label20.AutoSize = true;
-            label20.Location = new System.Drawing.Point(172, 104);
+            label20.Location = new System.Drawing.Point(162, 69);
             label20.Name = "label20";
             label20.Size = new System.Drawing.Size(59, 13);
             label20.TabIndex = 37;
@@ -597,7 +574,7 @@
             // label21
             // 
             label21.AutoSize = true;
-            label21.Location = new System.Drawing.Point(315, 103);
+            label21.Location = new System.Drawing.Point(305, 68);
             label21.Name = "label21";
             label21.Size = new System.Drawing.Size(40, 13);
             label21.TabIndex = 38;
@@ -605,7 +582,7 @@
             // 
             // textBoxPaciente6
             // 
-            this.textBoxPaciente6.Location = new System.Drawing.Point(37, 120);
+            this.textBoxPaciente6.Location = new System.Drawing.Point(27, 85);
             this.textBoxPaciente6.MaxLength = 16;
             this.textBoxPaciente6.Name = "textBoxPaciente6";
             this.textBoxPaciente6.Size = new System.Drawing.Size(132, 20);
@@ -615,7 +592,7 @@
             // 
             // textBoxAtendente6
             // 
-            this.textBoxAtendente6.Location = new System.Drawing.Point(175, 120);
+            this.textBoxAtendente6.Location = new System.Drawing.Point(165, 85);
             this.textBoxAtendente6.MaxLength = 16;
             this.textBoxAtendente6.Name = "textBoxAtendente6";
             this.textBoxAtendente6.Size = new System.Drawing.Size(132, 20);
@@ -628,7 +605,7 @@
             this.comboBoxStatus6.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.comboBoxStatus6.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.comboBoxStatus6.FormattingEnabled = true;
-            this.comboBoxStatus6.Location = new System.Drawing.Point(318, 119);
+            this.comboBoxStatus6.Location = new System.Drawing.Point(308, 84);
             this.comboBoxStatus6.Name = "comboBoxStatus6";
             this.comboBoxStatus6.Size = new System.Drawing.Size(121, 21);
             this.comboBoxStatus6.TabIndex = 40;
@@ -638,7 +615,7 @@
             // label22
             // 
             label22.AutoSize = true;
-            label22.Location = new System.Drawing.Point(34, 143);
+            label22.Location = new System.Drawing.Point(24, 108);
             label22.Name = "label22";
             label22.Size = new System.Drawing.Size(52, 13);
             label22.TabIndex = 45;
@@ -647,7 +624,7 @@
             // label23
             // 
             label23.AutoSize = true;
-            label23.Location = new System.Drawing.Point(172, 143);
+            label23.Location = new System.Drawing.Point(162, 108);
             label23.Name = "label23";
             label23.Size = new System.Drawing.Size(59, 13);
             label23.TabIndex = 47;
@@ -656,7 +633,7 @@
             // label24
             // 
             label24.AutoSize = true;
-            label24.Location = new System.Drawing.Point(315, 142);
+            label24.Location = new System.Drawing.Point(305, 107);
             label24.Name = "label24";
             label24.Size = new System.Drawing.Size(40, 13);
             label24.TabIndex = 50;
@@ -664,7 +641,7 @@
             // 
             // textBoxPaciente7
             // 
-            this.textBoxPaciente7.Location = new System.Drawing.Point(37, 159);
+            this.textBoxPaciente7.Location = new System.Drawing.Point(27, 124);
             this.textBoxPaciente7.MaxLength = 16;
             this.textBoxPaciente7.Name = "textBoxPaciente7";
             this.textBoxPaciente7.Size = new System.Drawing.Size(132, 20);
@@ -674,7 +651,7 @@
             // 
             // textBoxAtendente7
             // 
-            this.textBoxAtendente7.Location = new System.Drawing.Point(175, 159);
+            this.textBoxAtendente7.Location = new System.Drawing.Point(165, 124);
             this.textBoxAtendente7.MaxLength = 16;
             this.textBoxAtendente7.Name = "textBoxAtendente7";
             this.textBoxAtendente7.Size = new System.Drawing.Size(132, 20);
@@ -687,7 +664,7 @@
             this.comboBoxStatus7.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.comboBoxStatus7.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.comboBoxStatus7.FormattingEnabled = true;
-            this.comboBoxStatus7.Location = new System.Drawing.Point(318, 158);
+            this.comboBoxStatus7.Location = new System.Drawing.Point(308, 123);
             this.comboBoxStatus7.Name = "comboBoxStatus7";
             this.comboBoxStatus7.Size = new System.Drawing.Size(121, 21);
             this.comboBoxStatus7.TabIndex = 44;
@@ -697,7 +674,7 @@
             // label25
             // 
             label25.AutoSize = true;
-            label25.Location = new System.Drawing.Point(34, 182);
+            label25.Location = new System.Drawing.Point(24, 147);
             label25.Name = "label25";
             label25.Size = new System.Drawing.Size(52, 13);
             label25.TabIndex = 54;
@@ -706,7 +683,7 @@
             // label26
             // 
             label26.AutoSize = true;
-            label26.Location = new System.Drawing.Point(172, 182);
+            label26.Location = new System.Drawing.Point(162, 147);
             label26.Name = "label26";
             label26.Size = new System.Drawing.Size(59, 13);
             label26.TabIndex = 56;
@@ -715,7 +692,7 @@
             // label27
             // 
             label27.AutoSize = true;
-            label27.Location = new System.Drawing.Point(315, 181);
+            label27.Location = new System.Drawing.Point(305, 146);
             label27.Name = "label27";
             label27.Size = new System.Drawing.Size(40, 13);
             label27.TabIndex = 58;
@@ -723,7 +700,7 @@
             // 
             // textBoxPaciente8
             // 
-            this.textBoxPaciente8.Location = new System.Drawing.Point(37, 198);
+            this.textBoxPaciente8.Location = new System.Drawing.Point(27, 163);
             this.textBoxPaciente8.MaxLength = 16;
             this.textBoxPaciente8.Name = "textBoxPaciente8";
             this.textBoxPaciente8.Size = new System.Drawing.Size(132, 20);
@@ -733,7 +710,7 @@
             // 
             // textBoxAtendente8
             // 
-            this.textBoxAtendente8.Location = new System.Drawing.Point(175, 198);
+            this.textBoxAtendente8.Location = new System.Drawing.Point(165, 163);
             this.textBoxAtendente8.MaxLength = 16;
             this.textBoxAtendente8.Name = "textBoxAtendente8";
             this.textBoxAtendente8.Size = new System.Drawing.Size(132, 20);
@@ -746,7 +723,7 @@
             this.comboBoxStatus8.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.comboBoxStatus8.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.comboBoxStatus8.FormattingEnabled = true;
-            this.comboBoxStatus8.Location = new System.Drawing.Point(318, 197);
+            this.comboBoxStatus8.Location = new System.Drawing.Point(308, 162);
             this.comboBoxStatus8.Name = "comboBoxStatus8";
             this.comboBoxStatus8.Size = new System.Drawing.Size(121, 21);
             this.comboBoxStatus8.TabIndex = 49;
@@ -756,7 +733,7 @@
             // label28
             // 
             label28.AutoSize = true;
-            label28.Location = new System.Drawing.Point(34, 221);
+            label28.Location = new System.Drawing.Point(24, 186);
             label28.Name = "label28";
             label28.Size = new System.Drawing.Size(52, 13);
             label28.TabIndex = 60;
@@ -765,7 +742,7 @@
             // label29
             // 
             label29.AutoSize = true;
-            label29.Location = new System.Drawing.Point(172, 221);
+            label29.Location = new System.Drawing.Point(162, 186);
             label29.Name = "label29";
             label29.Size = new System.Drawing.Size(59, 13);
             label29.TabIndex = 61;
@@ -774,7 +751,7 @@
             // label30
             // 
             label30.AutoSize = true;
-            label30.Location = new System.Drawing.Point(315, 220);
+            label30.Location = new System.Drawing.Point(305, 185);
             label30.Name = "label30";
             label30.Size = new System.Drawing.Size(40, 13);
             label30.TabIndex = 62;
@@ -782,7 +759,7 @@
             // 
             // textBoxPaciente9
             // 
-            this.textBoxPaciente9.Location = new System.Drawing.Point(37, 237);
+            this.textBoxPaciente9.Location = new System.Drawing.Point(27, 202);
             this.textBoxPaciente9.MaxLength = 16;
             this.textBoxPaciente9.Name = "textBoxPaciente9";
             this.textBoxPaciente9.Size = new System.Drawing.Size(132, 20);
@@ -792,7 +769,7 @@
             // 
             // textBoxAtendente9
             // 
-            this.textBoxAtendente9.Location = new System.Drawing.Point(175, 237);
+            this.textBoxAtendente9.Location = new System.Drawing.Point(165, 202);
             this.textBoxAtendente9.MaxLength = 16;
             this.textBoxAtendente9.Name = "textBoxAtendente9";
             this.textBoxAtendente9.Size = new System.Drawing.Size(132, 20);
@@ -805,7 +782,7 @@
             this.comboBoxStatus9.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.comboBoxStatus9.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.comboBoxStatus9.FormattingEnabled = true;
-            this.comboBoxStatus9.Location = new System.Drawing.Point(318, 236);
+            this.comboBoxStatus9.Location = new System.Drawing.Point(308, 201);
             this.comboBoxStatus9.Name = "comboBoxStatus9";
             this.comboBoxStatus9.Size = new System.Drawing.Size(121, 21);
             this.comboBoxStatus9.TabIndex = 53;
@@ -815,7 +792,7 @@
             // label31
             // 
             label31.AutoSize = true;
-            label31.Location = new System.Drawing.Point(34, 260);
+            label31.Location = new System.Drawing.Point(24, 225);
             label31.Name = "label31";
             label31.Size = new System.Drawing.Size(52, 13);
             label31.TabIndex = 63;
@@ -824,7 +801,7 @@
             // label32
             // 
             label32.AutoSize = true;
-            label32.Location = new System.Drawing.Point(172, 260);
+            label32.Location = new System.Drawing.Point(162, 225);
             label32.Name = "label32";
             label32.Size = new System.Drawing.Size(59, 13);
             label32.TabIndex = 64;
@@ -833,7 +810,7 @@
             // label33
             // 
             label33.AutoSize = true;
-            label33.Location = new System.Drawing.Point(315, 259);
+            label33.Location = new System.Drawing.Point(305, 224);
             label33.Name = "label33";
             label33.Size = new System.Drawing.Size(40, 13);
             label33.TabIndex = 65;
@@ -841,7 +818,7 @@
             // 
             // textBoxPaciente10
             // 
-            this.textBoxPaciente10.Location = new System.Drawing.Point(37, 276);
+            this.textBoxPaciente10.Location = new System.Drawing.Point(27, 241);
             this.textBoxPaciente10.MaxLength = 16;
             this.textBoxPaciente10.Name = "textBoxPaciente10";
             this.textBoxPaciente10.Size = new System.Drawing.Size(132, 20);
@@ -851,7 +828,7 @@
             // 
             // textBoxAtendente10
             // 
-            this.textBoxAtendente10.Location = new System.Drawing.Point(175, 276);
+            this.textBoxAtendente10.Location = new System.Drawing.Point(165, 241);
             this.textBoxAtendente10.MaxLength = 16;
             this.textBoxAtendente10.Name = "textBoxAtendente10";
             this.textBoxAtendente10.Size = new System.Drawing.Size(132, 20);
@@ -864,7 +841,7 @@
             this.comboBoxStatus10.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.comboBoxStatus10.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.comboBoxStatus10.FormattingEnabled = true;
-            this.comboBoxStatus10.Location = new System.Drawing.Point(318, 275);
+            this.comboBoxStatus10.Location = new System.Drawing.Point(308, 240);
             this.comboBoxStatus10.Name = "comboBoxStatus10";
             this.comboBoxStatus10.Size = new System.Drawing.Size(121, 21);
             this.comboBoxStatus10.TabIndex = 59;
@@ -873,7 +850,7 @@
             // 
             // buttonUpdatePanelR
             // 
-            this.buttonUpdatePanelR.Location = new System.Drawing.Point(185, 314);
+            this.buttonUpdatePanelR.Location = new System.Drawing.Point(175, 279);
             this.buttonUpdatePanelR.Name = "buttonUpdatePanelR";
             this.buttonUpdatePanelR.Size = new System.Drawing.Size(111, 40);
             this.buttonUpdatePanelR.TabIndex = 66;
@@ -881,24 +858,27 @@
             this.buttonUpdatePanelR.UseVisualStyleBackColor = true;
             this.buttonUpdatePanelR.Click += new System.EventHandler(this.buttonUpdatePanelR_Click);
             // 
-            // textBoxTitleR
+            // comboBoxTitleL
             // 
-            this.textBoxTitleR.Location = new System.Drawing.Point(175, 29);
-            this.textBoxTitleR.MaxLength = 10;
-            this.textBoxTitleR.Name = "textBoxTitleR";
-            this.textBoxTitleR.Size = new System.Drawing.Size(132, 20);
-            this.textBoxTitleR.TabIndex = 35;
-            this.textBoxTitleR.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxTitleR_KeyDown);
+            this.comboBoxTitleL.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.comboBoxTitleL.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBoxTitleL.FormattingEnabled = true;
+            this.comboBoxTitleL.Location = new System.Drawing.Point(181, 29);
+            this.comboBoxTitleL.Name = "comboBoxTitleL";
+            this.comboBoxTitleL.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxTitleL.TabIndex = 69;
+            this.comboBoxTitleL.SelectedIndexChanged += new System.EventHandler(this.comboBoxTitleL_SelectedIndexChanged);
             // 
-            // buttonUpdateTitleR
+            // comboBoxTitleR
             // 
-            this.buttonUpdateTitleR.Location = new System.Drawing.Point(200, 55);
-            this.buttonUpdateTitleR.Name = "buttonUpdateTitleR";
-            this.buttonUpdateTitleR.Size = new System.Drawing.Size(83, 39);
-            this.buttonUpdateTitleR.TabIndex = 68;
-            this.buttonUpdateTitleR.Text = "Atualizar título";
-            this.buttonUpdateTitleR.UseVisualStyleBackColor = true;
-            this.buttonUpdateTitleR.Click += new System.EventHandler(this.buttonUpdateTitleR_Click);
+            this.comboBoxTitleR.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.comboBoxTitleR.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBoxTitleR.FormattingEnabled = true;
+            this.comboBoxTitleR.Location = new System.Drawing.Point(177, 28);
+            this.comboBoxTitleR.Name = "comboBoxTitleR";
+            this.comboBoxTitleR.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxTitleR.TabIndex = 70;
+            this.comboBoxTitleR.SelectedIndexChanged += new System.EventHandler(this.comboBoxTitleR_SelectedIndexChanged);
             // 
             // GerenciamentoPainel2
             // 
@@ -924,9 +904,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button buttonUpdateTitleL;
-        private System.Windows.Forms.TextBox textBoxTitleL;
         private System.Windows.Forms.Button buttonUpdatePanelL;
         private System.Windows.Forms.ComboBox comboBoxStatus5;
         private System.Windows.Forms.TextBox textBoxAtendente5;
@@ -959,7 +936,7 @@
         private System.Windows.Forms.TextBox textBoxAtendente10;
         private System.Windows.Forms.ComboBox comboBoxStatus10;
         private System.Windows.Forms.Button buttonUpdatePanelR;
-        private System.Windows.Forms.TextBox textBoxTitleR;
-        private System.Windows.Forms.Button buttonUpdateTitleR;
+        private System.Windows.Forms.ComboBox comboBoxTitleL;
+        private System.Windows.Forms.ComboBox comboBoxTitleR;
     }
 }

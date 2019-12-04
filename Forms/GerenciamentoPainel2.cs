@@ -41,6 +41,10 @@ namespace Painel_Pacientes.Forms
             comboBoxStatus9.Items.AddRange(new string[] { "Livre", "Aguardando atendimento", "Em atendimento" });
             comboBoxStatus10.Items.AddRange(new string[] { "Livre", "Aguardando atendimento", "Em atendimento" });
 
+            comboBoxTitleL.Items.AddRange(new string[] { "GED", "Sorriso Aberto", "Sorriso Positivo" });
+
+            comboBoxTitleR.Items.AddRange(new string[] { "GED", "Sorriso Aberto", "Sorriso Positivo" });
+
             comboBoxStatus1.SelectedIndex = 0;
             comboBoxStatus2.SelectedIndex = 0;
             comboBoxStatus3.SelectedIndex = 0;
@@ -57,39 +61,7 @@ namespace Painel_Pacientes.Forms
             this.painel2.Show();
         }
         #region "Atualizações do título"
-        private void buttonUpdateTitle_Click(object sender, EventArgs e)
-        {
-            //Botão atualizar título.
-
-            // Atualiza o título do lado esquerdo.
-            if (this.textBoxTitleL.Text == String.Empty)
-            {
-                this.textBoxTitleL.Focus();
-                return;
-            }
-
-            painel2.RefreshTitle(1,this.textBoxTitleL.Text);
-        }
-
-        private void buttonUpdateTitleR_Click(object sender, EventArgs e)
-        {
-            //Botão atualizar título.
-
-            // Atualiza o titulo do lado direito.
-            if (this.textBoxTitleR.Text == String.Empty)
-            {
-                this.textBoxTitleR.Focus();
-                return;
-            }
-
-            painel2.RefreshTitle(2, this.textBoxTitleR.Text);
-        }
-
-        private void textBoxTitle_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-                this.buttonUpdateTitle_Click(new object(), new EventArgs());
-        }
+        
 
         private void buttonUpdatePanel_Click(object sender, EventArgs e)
         {
@@ -276,11 +248,7 @@ namespace Painel_Pacientes.Forms
         #endregion
 
         #region "métodos coluna direita"
-        private void textBoxTitleR_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-                this.buttonUpdateTitleR_Click(new object(), new EventArgs());
-        }
+        
 
         private void textBoxPaciente6_TextChanged(object sender, EventArgs e)
         {
@@ -449,5 +417,15 @@ namespace Painel_Pacientes.Forms
         }
 
         #endregion
+
+        private void comboBoxTitleL_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            painel2.RefreshTitle(1, this.comboBoxTitleL.Text);
+        }
+
+        private void comboBoxTitleR_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            painel2.RefreshTitle(2, this.comboBoxTitleR.Text);
+        }
     }
 }
